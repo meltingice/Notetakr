@@ -1,0 +1,182 @@
+body,html{
+	background-color: #a3d67b;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x:hidden;
+}
+
+/*---------- header ----------*/
+#header-container{
+	position: relative;
+	z-index: 1;
+	background: url('../img/header-bk.png') repeat-x;
+	width: 100%;
+	height: 300px;
+}
+
+#header{
+	background: url('../img/header.png') no-repeat;
+	width: 803px;
+	height: 259px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+/*---------- body ----------*/
+#rays{
+	top: -100px;
+	right: -50px;
+	margin: auto;
+	margin-top: -500px;
+	margin-left: -10px;
+	background-image: url('../img/rays.png');
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 1280px;
+	z-index: 0;
+}
+
+#content-container{
+	width: 803px;
+	margin: 0 auto;
+}
+
+.left-title{
+	float: left;
+	width: 400px;
+	margin: 0;
+	
+}
+
+.left-content{
+	float: left;
+	width: 400px;
+	position:relative;
+	z-index: 1;
+}
+
+.left-content p{
+	margin-left: 5px;
+	color: #464646;
+}
+
+.left-content ul{
+	float: left;
+	margin: 5px 0 0 5px;
+	padding-left: 30px;
+	list-style-image: url("../img/bullet_go.png");
+}
+
+.left-content li p{
+	margin: 5px 0 5px 0;
+}
+
+.right-title{
+	float: right;
+	width: 400px;
+	margin: 0;
+	
+}
+
+.right-content{
+	float: right;
+	margin-right: 5px;
+	width: 400px;
+	text-align: right;
+	position: relative;
+	z-index: 1;	
+}
+
+.right-content p{
+	margin-right: 5px;
+	color: #464646;
+}
+
+.entry-container{
+	width: 803px;
+	float: left;
+	position: relative;
+	z-index: 0;
+}
+
+#loginbox{
+	float: right;
+	position: relative;
+	background-color: #fefbca;
+	border: 2px #eedd66 solid;
+	width: 350px;
+	height: 250px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#login-image{
+	margin: 5px auto;
+}
+
+#loginbox a{
+	color: #393939;
+	text-decoration: none;
+}
+
+#loginbox a:hover{
+	text-decoration: underline;
+}
+
+#loginform input{
+	width: 250px;
+	height: 28px;
+	font-size: 24px;
+	text-align: center;
+	color: #bdbdbd;
+	border: 2px #eedd66 solid;
+}
+
+#submitbutton{
+	width: 100px !important;
+	height: 36px !important;
+	background-color: transparent;
+	color: #464646 !important;
+	border: 2px #eedd66 solid;
+}
+
+#submitbutton:hover{
+	background-color: #fffaa0 !important;
+}
+
+#screenshots{
+	margin-left: 8px;
+}
+
+#screenshots img{
+	border: 1px #393939 solid;
+}
+
+#footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	margin-top: -170px;
+	position: relative;
+}
+
+#footer p{
+	margin: 3px 0 3px 0;
+	color: #393939;
+}
+
+#footer a{
+	color: #393939;
+}
+
+#ad{
+	width: 100%;
+	text-align:center;
+	float: left;
+	position: relative;
+	margin-top: -240px;
+}

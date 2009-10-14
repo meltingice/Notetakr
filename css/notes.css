@@ -1,0 +1,136 @@
+body,html{
+	background-color: #f0f0ee;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Helvetica, Arial, sans-serif;
+	min-width: 890px;
+}
+
+#header-container{
+	height: 30px;
+	width: 100%;
+	background: url('../img/notes-header.jpg') repeat-x;
+	float: left;
+	border-bottom: 1px #393939 solid;
+}
+
+#center-header{
+	width: 600px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#center-header p{
+	margin:0px;
+	color: #2a2a2a;
+}
+
+#right-header{
+	float: right;
+	width: 300px;
+	height: 30px;
+	margin: 0 10px 0 0;
+	text-align: right;
+	padding-top: 8px;
+}
+
+#right-header p{
+	margin: 0;
+	color: #2a2a2a;
+	width: 75px;
+	float: right;
+}
+
+#right-header img{
+	margin: -3px 0 0 0;
+	float: right;
+}
+
+#left-panel{
+	width: 250px;
+	height: 500px;
+	float: left;
+	background-color: #b2dd91;
+	border-right: 1px #aaaaaa solid;
+	overflow: auto;
+}
+
+#left-panel ul{
+	list-style: url('../img/bullet_go.png');
+	margin: 5px 0 5px 0;
+}
+
+#left-panel p{
+	margin: 2px 0 2px 0;
+}
+
+#left-panel a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#left-panel a:hover{
+	text-decoration: underline;
+}
+
+#left-panel-content{
+	margin-top: 10px;
+}
+
+#editor{
+	float: right;
+	margin-right: 5px;
+}
+
+#ajaxloader{
+	text-align: center;
+}
+
+#nav{
+	background-color: #a3d67b;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px #aaaaaa solid;
+}
+
+#nav img{
+	margin: 5px;
+	border:none;
+}
+
+#notesubmit{
+	width: 50px;
+	height: 28px;
+	background-color: #b2dd91;
+	margin: 4px 0 0 5px;
+	border: 1px #a3d67b solid;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#savebuttons{
+	margin: 0;
+}
+
+#savebuttons p{ margin: 0; }
+
+#saveas{
+	background-color: #b2dd91;
+	padding: 7px 8px 6px 8px;
+	margin: 0;
+	border: 1px #a3d67b solid;
+	color: #000000;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+#saveas:hover{
+	background-color: #a3d67b;
+}
+
+#notesubmit:hover{
+	background-color: #a3d67b;
+}

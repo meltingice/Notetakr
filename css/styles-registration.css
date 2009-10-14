@@ -1,0 +1,40 @@
+#registerbox{
+	background-color: #fefbca;
+	border: 2px #eedd66 solid;
+	width: 350px;
+	height: 530px;
+	margin: 10px auto;
+	text-align: center;
+	position: relative;
+}
+
+#registerbox a{
+	color: #393939;
+	text-decoration: none;
+}
+
+#registerbox a:hover{
+	text-decoration: underline;
+}
+
+#register-rays{
+	margin: auto;
+	margin-top: -780px;
+	background-image: url('../img/rays.png');
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 1280px;
+	z-index: 0;
+}
+
+#captcha{
+	text-align: center;
+}
+
+#captcha input{
+	height: 20px;
+	font-size: 16px;
+	color: #393939;
+}
+
+#recaptcha_widget_div{ text-align: center; width: 318px; margin: auto;}
